@@ -1,0 +1,7 @@
+criteo:
+  EFIN:
+    batch_size: 256
+    lambda: 0.001
+    learning_rate: 0.001
+    rank: 128
+    rank2: 128
