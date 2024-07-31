@@ -30,8 +30,8 @@ python get_criteo.py
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 nohup python -m torch.distributed.launch --nproc_per_node=8 tune_efin.py > tune_efin 2>&1 &
 ```
 
-## More results
-The benchmark we developed is under review at the conference and contains more baselines, preprocessing, and datasets. We will open source and maintain it continuously after it is accepted. Please stay tuned!
+## More info
+We have built an initial benchmark for deep uplift modeling, which can be found in this paper ([Link](https://arxiv.org/pdf/2406.00335)). The related project homepage is under construction. Please stay tuned!
 
 ## 
 If you have any issues or ideas, feel free to contact us ([dugang.ldg@gmail.com](mailto:dugang.ldg@gmail.com)).
